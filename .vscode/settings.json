@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "PaintBallPrototype_KevinHoang.sln"
+    "dotnet.defaultSolution": "2510_CGDP_Unity3D_CrashCourse.sln"
 }

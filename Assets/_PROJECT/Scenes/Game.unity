@@ -333,6 +333,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1679178957}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &317309238 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4213711620244162979, guid: 87e308cb23eea97419b3c2623d8bb3fa, type: 3}
+  m_PrefabInstance: {fileID: 1803702916}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &364285500
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,6 +828,79 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1679178957}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1001 &1803702916
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2046379844}
+    m_Modifications:
+    - target: {fileID: 4210100720165400533, guid: 87e308cb23eea97419b3c2623d8bb3fa, type: 3}
+      propertyPath: m_Name
+      value: M1911 Handgun_Black
+      objectReference: {fileID: 0}
+    - target: {fileID: 4213711620244162979, guid: 87e308cb23eea97419b3c2623d8bb3fa, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4213711620244162979, guid: 87e308cb23eea97419b3c2623d8bb3fa, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4213711620244162979, guid: 87e308cb23eea97419b3c2623d8bb3fa, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4213711620244162979, guid: 87e308cb23eea97419b3c2623d8bb3fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.346
+      objectReference: {fileID: 0}
+    - target: {fileID: 4213711620244162979, guid: 87e308cb23eea97419b3c2623d8bb3fa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.352
+      objectReference: {fileID: 0}
+    - target: {fileID: 4213711620244162979, guid: 87e308cb23eea97419b3c2623d8bb3fa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.509
+      objectReference: {fileID: 0}
+    - target: {fileID: 4213711620244162979, guid: 87e308cb23eea97419b3c2623d8bb3fa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4213711620244162979, guid: 87e308cb23eea97419b3c2623d8bb3fa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4213711620244162979, guid: 87e308cb23eea97419b3c2623d8bb3fa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4213711620244162979, guid: 87e308cb23eea97419b3c2623d8bb3fa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4213711620244162979, guid: 87e308cb23eea97419b3c2623d8bb3fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4213711620244162979, guid: 87e308cb23eea97419b3c2623d8bb3fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4213711620244162979, guid: 87e308cb23eea97419b3c2623d8bb3fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4213711620244162979, guid: 87e308cb23eea97419b3c2623d8bb3fa, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87e308cb23eea97419b3c2623d8bb3fa, type: 3}
 --- !u!1 &2046379841
 GameObject:
   m_ObjectHideFlags: 0
@@ -913,7 +991,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 317309238}
   m_Father: {fileID: 953502587}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2046379845
